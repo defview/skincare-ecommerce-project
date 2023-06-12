@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#CEF0F6] scroll-smooth transition-all ease-in-out text-black;
+    }
+}
+
+@layer components {
+    .list {
+        @apply hover:text-[#508549] cursor-pointer hover:text-lg transition-all
+        duration-700 ease-in-out;
+    }
+    .menu {
+        @apply hover:text-[#508549] cursor-pointer hover:text-base transition-all
+        duration-700 ease-in-out;
+    }
+}
